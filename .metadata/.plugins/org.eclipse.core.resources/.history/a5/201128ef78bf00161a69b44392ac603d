@@ -1,0 +1,49 @@
+package com.shoppingcart.persistence;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
+import javax.json.JsonValue;
+
+import com.shoppingcart.classes.Item;
+
+public class ItemDAO {
+	
+	public static Item getItem(String code) {
+		String uri = "src\\com\\shoppingcart\\persistence\\json\\data.json";
+		Item item = null;
+		try {
+			JsonReader reader= Json.createReader(new FileInputStream(uri));
+			JsonObject obj = reader.readObject();
+			reader.close();
+			
+			obj.getString("items");
+			
+			JsonArray jsonArray = obj.getJsonArray("items");
+			/*for (int i = 0; i < jsonArray.size(); i++) {
+				JsonObject object = jsonArray.getJsonObject(i);
+				if (obj.getString("code").equals(code)) {
+					item = new Item(object.getString("code"), object.getString("name"), 
+							Double.parseDouble(object.getString("price")));
+				}
+			}*/
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return item;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(getItem("ult_small"));
+	}
+	
+}

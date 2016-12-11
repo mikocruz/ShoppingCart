@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ShoppingCartTest" project="ShoppingCart" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="com.shoppingcart.tests.ShoppingCartTest" time="0.438">
+    <testcase name="testGetItemsAddedScenario1" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.125"/>
+    <testcase name="testGetItemsAddedScenario2" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.032"/>
+    <testcase name="testGetItemsAddedScenario3" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.047"/>
+    <testcase name="testGetItemsAddedScenario4" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.015"/>
+    <testcase name="testGetItemsExpectedScenario1" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.031"/>
+    <testcase name="testGetItemsExpectedScenario2" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.032"/>
+    <testcase name="testGetItemsExpectedScenario3" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.062"/>
+    <testcase name="testGetItemsExpectedScenario4" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.016"/>
+    <testcase name="testTotalScenario1" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.031"/>
+    <testcase name="testTotalScenario2" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.031"/>
+    <testcase name="testTotalScenario3" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.0"/>
+    <testcase name="testTotalScenario4" classname="com.shoppingcart.tests.ShoppingCartTest" time="0.016"/>
+  </testsuite>
+</testrun>

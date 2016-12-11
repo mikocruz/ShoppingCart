@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.json.JsonValue"/>
+<fullyQualifiedTypeName name="javax.json.JsonObject"/>
+<fullyQualifiedTypeName name="com.shoppingcart.interfaces.Cart"/>
+<fullyQualifiedTypeName name="com.shoppingcart.classes.ShoppingCart"/>
+<fullyQualifiedTypeName name="com.shoppingcart.classes.PricingRulesImpl"/>
+<fullyQualifiedTypeName name="com.shoppingcart.interfaces.PricingRules"/>
+<fullyQualifiedTypeName name="com.shoppingcart.classes.Item"/>
+<fullyQualifiedTypeName name="org.hamcrest.core.Is"/>
+<fullyQualifiedTypeName name="org.hamcrest.collection.IsMapContaining"/>
+<fullyQualifiedTypeName name="java.awt.ItemSelectable"/>
+<fullyQualifiedTypeName name="com.shoppingcart.constants.Constants"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.json.JsonArray"/>
+<fullyQualifiedTypeName name="com.shoppingcart.persistence.ItemDAO"/>
+</qualifiedTypeNameHistroy>
